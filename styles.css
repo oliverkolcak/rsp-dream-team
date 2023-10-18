@@ -1,62 +1,65 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     padding: 0;
     background-color: rgb(58, 58, 58);
 }
-textarea
-{
+
+textarea {
     resize: none;
 }
-.main-content-box
-{
+
+.main-content-box {
     background-color: grey;
-    width: 80%;
+    width: 85%;
     height: 1000px;
-    margin: 55px auto;
-    padding-top: 1px;
+    margin: 50px auto;
+    padding-bottom: 10px;
+
+    
 }
-.head-content
-{
+
+.head-content {
     display: flex;
-    justify-content:space-between ;
-}
-.content-box-first
-{
-    background-color: lightgreen;
-    width: 200px;
+    justify-content: space-between;
+    width: 85%;
     height: 100px;
     margin: 50px auto;
     
 }
-.content-box-first textarea
-{
+
+.content-box-first {
+    background-color: lightgreen;
+    width: 200px;
+    height: 100px;
+    
+}
+
+.content-box-first textarea {
     width: 80%;
     height: 80%;
     margin: 3%;
 }
-.content-box-second
-{
+
+.content-box-second {
     background-color: lightblue;
-    width: 500px;
+    width: 400px;
     height: 100px;
-    margin: 50px auto;
-    
     
 }
-.content-box-second textarea
-{
-    width: 480px;
+
+.content-box-second textarea {
+    width: 380px;
     height: 80px;
 }
-.text-content-box
-{
+
+.text-content-box {
     background-color: red;
     width: 85%;
     height: 700px;
     margin: 50px auto;
 }
-.text-content-box textarea
-{
+
+.text-content-box textarea {
     width: 680px;
     height: 680px;
 }
